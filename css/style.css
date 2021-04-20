@@ -389,6 +389,9 @@ footer {
     .profile button {
         border: none;
     }
+    .profile-img {
+        margin-left: 5px;
+    }
     .side-nav button {
         justify-content: center;
         padding-left: 0;
@@ -409,7 +412,7 @@ footer {
         font-size: 9px;
     }
     .img-md {
-        height: 25px;
+        height: 28px;
     }
 }
 
@@ -434,4 +437,15 @@ footer {
     }
 }
 
+@media screen and (max-width: 361px) {
+
+    .footer-left img {
+        display: none;
+    }
+
+    .footer-left .song-title {
+        padding-left: 10px;
+    }
+
+}
     

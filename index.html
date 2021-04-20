@@ -9,11 +9,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
             integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="icon" type="image/png" href="img/favicon.ico" />
         <link rel="stylesheet" href="css/style.css">
         <title>Spotify</title>
     </head>
 
     <body>
+        <!-- main -->
         <main class="flex">
             <!-- side navbar -->
             <aside class="flex-col justify-between">
@@ -271,9 +273,11 @@
             </section>
             <!-- /main-content -->
         </main>
+        <!-- /main -->
 
-        <!-- play bar -->
+        <!-- footer-->
         <footer class="w-full flex items-center justify-between">
+            <!-- footer-left -->
             <div class="footer-left flex items-center justify-between">
                 <div class="song flex items-center">
                     <img class="img-md mx" src="img/sinister.jpeg" alt="Sinister">
@@ -283,15 +287,18 @@
                     </div>
                 </div>
                 <div class="save">
-                    <button class="pl hover tr">
+                    <button class="pl hover pop">
                         <i class="far fa-heart"></i>
                     </button>
-                    <button class="pl hover tr">
+                    <button class="folder pl hover pop">
                         <i class="far fa-folder"></i>
+                        <i class="far fa-folder-open"></i>
                     </button>
                 </div>
             </div>
+            <!-- /footer-left -->
 
+            <!-- footer-center/play-bar -->
             <div class="footer-center flex-col justify-center">
                 <div class="flex items-center justify-center">
                     <button class="text-white">
@@ -320,15 +327,17 @@
                     <span class="text-white font-xs pl">4:35</span>
                 </div>
             </div>
+            <!-- /footer-center/play-bar -->
 
+            <!-- footer-right -->
             <div class="footer-right flex items-center">
-                <button class="text-white">
+                <button class="text-white pop">
                     <i class="fas fa-list"></i>
                 </button>
-                <button class="text-white pl">
+                <button class="text-white pl pop">
                     <i class="fas fa-tv"></i>
                 </button>
-                <button class="text-white pl">
+                <button class="text-white pl pop">
                     <i class="fas fa-volume-up"></i>
                 </button>
                 <div class="audio-bar mx">
@@ -337,8 +346,9 @@
                     </div>
                 </div>
             </div>
+            <!-- /footer-right -->
         </footer>
-        <!-- /play bar -->
+        <!-- /footer -->
     </body>
 
 </html>

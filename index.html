@@ -23,45 +23,45 @@
                         <img id="logo-sm" src="img/logo-small.svg" alt="Spotify Small Logo">
                     </div>
                     <div class="side-nav">
-                        <button class="flex items-center justify-center mb">
+                        <button class="w-full active-left flex items-center mb">
                             <img class="img-sm text-white" src="img/home.svg" alt="Home">
                             <span class="ml text-white none">Home</span>
                         </button>
-                        <button class="flex items-center mb">
+                        <button class="w-full pl flex items-center mb">
                             <img class="img-sm" src="img/search.svg" alt="Cerca">
-                            <span class="ml text-grey none">Cerca</span>
+                            <span class="ml text-grey none hover tr">Cerca</span>
                         </button>
-                        <button class="flex items-center mb">
+                        <button class="w-full pl flex items-center mb">
                             <img class="img-sm" src="img/libreria.svg" alt="Libreria">
-                            <span class="ml text-grey none">La tua libreria</span>
+                            <span class="ml text-grey none hover tr">La tua libreria</span>
                         </button>
                     </div>
                     <div class="playlist mx none">
                         <h4 class="upc font-sm text-white">playlist</h4>
-                        <button class="flex items-center justify-start mt">
+                        <button class="flex items-center justify-start mt hover pop">
                             <i class="fas fa-plus-square fa-2x"></i>
                             <p class="ml">Crea Playlist</p>
                         </button>
                         <div class="flex-col">
-                            <a href="#" class="text-grey no-dec font-sm mt">
+                            <a href="#" class="text-grey no-dec font-sm mt hover tr">
                                 Nome Playlist
                             </a>
-                            <a href="#" class="text-grey no-dec font-sm mt">
+                            <a href="#" class="text-grey no-dec font-sm mt hover tr">
                                 Nome Playlist
                             </a>
-                            <a href="#" class="text-grey no-dec font-sm mt">
+                            <a href="#" class="text-grey no-dec font-sm mt hover tr">
                                 Nome Playlist
                             </a>
-                            <a href="#" class="text-grey no-dec font-sm mt">
+                            <a href="#" class="text-grey no-dec font-sm mt hover tr">
                                 Nome Playlist
                             </a>
-                            <a href="#" class="text-grey no-dec font-sm mt">
+                            <a href="#" class="text-grey no-dec font-sm mt hover tr">
                                 Nome Playlist
                             </a>
-                            <a href="#" class="text-grey no-dec font-sm mt">
+                            <a href="#" class="text-grey no-dec font-sm mt hover tr">
                                 Nome Playlist
                             </a>
-                            <a href="#" class="text-grey no-dec font-sm mt">
+                            <a href="#" class="text-grey no-dec font-sm mt hover tr">
                                 Nome Playlist
                             </a>
                         </div>
@@ -71,7 +71,7 @@
                 <div class="profile mx">
                     <button class="flex items-center">
                         <i class="far fa-arrow-alt-circle-down text-grey"></i>
-                        <p class="text-grey font-xs ml none">Installa app</p>
+                        <p class="text-grey font-xs ml none hover tr">Installa app</p>
                     </button>
                     <div class="flex items-center mt mb">
                         <div class="profile-img flex items-center justify-center">
@@ -87,7 +87,7 @@
             <section>
                 <!-- cta -->
                 <div id="cta" class="flex items-center justify-end pr-20">
-                    <a class="btn upc no-dec text-white font-xs" href="#">effettua l'upgrade</a>
+                    <a class="btn upc no-dec text-white font-xs pop" href="#">effettua l'upgrade</a>
                 </div>
                 <!-- cta -->
 
@@ -95,22 +95,22 @@
                 <nav>
                     <ul class="flex wrap items-center justify-center">
                         <li class="p">
-                            <a href="#" class="upc text-grey no-dec font-sm">in evidenza</a>
+                            <a href="#" class="py active-bottom upc text-grey no-dec font-sm hover tr">in evidenza</a>
                         </li>
                         <li class="p">
-                            <a href="#" class="upc text-grey no-dec font-sm">podcast</a>
+                            <a href="#" class="py upc text-grey no-dec font-sm hover tr">podcast</a>
                         </li>
                         <li class="p">
-                            <a href="#" class="upc text-grey no-dec font-sm">classifiche</a>
+                            <a href="#" class="py upc text-grey no-dec font-sm hover tr">classifiche</a>
                         </li>
                         <li class="p">
-                            <a href="#" class="upc text-grey no-dec font-sm">generi e mood</a>
+                            <a href="#" class="py upc text-grey no-dec font-sm hover tr">generi e mood</a>
                         </li>
                         <li class="p">
-                            <a href="#" class="upc text-grey no-dec font-sm">nuove uscite</a>
+                            <a href="#" class="py upc text-grey no-dec font-sm hover tr">nuove uscite</a>
                         </li>
                         <li class="p">
-                            <a href="#" class="upc text-grey no-dec font-sm">scopri</a>
+                            <a href="#" class="py upc text-grey no-dec font-sm hover tr">scopri</a>
                         </li>
                     </ul>
                 </nav>
@@ -122,15 +122,26 @@
                     <div class="w-full flex wrap">
                         <div class="flex-col w-48">
                             <div class="w-full h-auto p text-center">
-                                <img class="h-auto w-full mb" src="img/metal_lifting.jpg" alt="Heavy Metal Mix">
+                                <div class="overlay">
+                                    <img class="h-auto w-full" src="img/metal_lifting.jpg" alt="Heavy Metal Mix">
+                                    <div class="play pop">
+                                        <i class="play far fa-play-circle fa-2x"></i>
+                                    </div>
+                                </div>
                                 <h3 class="text-white font-sm my">Heavy Metal</h3>
                                 <h4 class="text-grey font-xs">Subtitle</h4>
                             </div>
                         </div>
                         <div class="flex-col w-48">
                             <div class="w-full h-auto p text-center">
-                                <img class="h-auto w-full mb" src="img/stranger.jpeg" alt="Stranger Things">
-                                <h3 class="text-white font-sm my">Stranger Things, Vol.1 (a Netflix Original Series
+                                <div class="overlay">
+                                    <img class="h-auto w-full" src="img/stranger.jpeg" alt="Stranger Things">
+                                    <div class="play pop">
+                                        <i class="play far fa-play-circle fa-2x"></i>
+                                    </div>
+                                </div>
+                                <h3 class="text-white font-sm my">
+                                    Stranger Things, Vol.1 (a Netflix Original Series
                                     Soundtrack)
                                 </h3>
                                 <h4 class="text-grey font-xs">Kyle Dixon & Michael Stein</h4>
@@ -138,7 +149,12 @@
                         </div>
                         <div class="flex-col w-48">
                             <div class="w-full h-auto p text-center">
-                                <img class="h-auto w-full mb" src="img/aquietplace.jpeg" alt="A Quiet Place">
+                                <div class="overlay">
+                                    <img class="h-auto w-full" src="img/aquietplace.jpeg" alt="A Quiet Place">
+                                    <div class="play pop">
+                                        <i class="play far fa-play-circle fa-2x"></i>
+                                    </div>
+                                </div>
                                 <h3 class="text-white font-sm my">A Quiet Place
                                 </h3>
                                 <h4 class="text-grey font-xs">Subtitle</h4>
@@ -146,7 +162,12 @@
                         </div>
                         <div class="flex-col w-48">
                             <div class="w-full h-auto p text-center">
-                                <img class="h-auto w-full mb" src="img/split.jpeg" alt="Split">
+                                <div class="overlay">
+                                    <img class="h-auto w-full" src="img/split.jpeg" alt="Split">
+                                    <div class="play pop">
+                                        <i class="play far fa-play-circle fa-2x"></i>
+                                    </div>
+                                </div>
                                 <h3 class="text-white font-sm my">Split
                                 </h3>
                                 <h4 class="text-grey font-xs">Subtitle</h4>
@@ -154,7 +175,12 @@
                         </div>
                         <div class="flex-col w-48">
                             <div class="w-full h-auto p text-center">
-                                <img class="h-auto w-full mb" src="img/aquietplace.jpeg" alt="A Cure for Wellness">
+                                <div class="overlay">
+                                    <img class="h-auto w-full" src="img/cure.jpeg" alt="A Cure for Wellness">
+                                    <div class="play pop">
+                                        <i class="play far fa-play-circle fa-2x"></i>
+                                    </div>
+                                </div>
                                 <h3 class="text-white font-sm my">A Cure for Wellness
                                 </h3>
                                 <h4 class="text-grey font-xs">Subtitle</h4>
@@ -162,7 +188,12 @@
                         </div>
                         <div class="flex-col w-48">
                             <div class="w-full h-auto p text-center">
-                                <img class="h-auto w-full mb" src="img/sinister.jpeg" alt="Sinister">
+                                <div class="overlay">
+                                    <img class="h-auto w-full" src="img/sinister.jpeg" alt="Sinister">
+                                    <div class="play pop">
+                                        <i class="play far fa-play-circle fa-2x"></i>
+                                    </div>
+                                </div>
                                 <h3 class="text-white font-sm my">Sinister
                                 </h3>
                                 <h4 class="text-grey font-xs">Subtitle</h4>
@@ -181,13 +212,23 @@
                     <div class="w-full flex wrap">
                         <div class="flex-col w-48">
                             <div class="w-full h-auto p text-center">
-                                <img class="h-auto w-full mb" src="img/radar.jpeg" alt="Release Radar">
+                                <div class="overlay">
+                                    <img class="h-auto w-full mb" src="img/radar.jpeg" alt="Release Radar">
+                                    <div class="play pop">
+                                        <i class="play far fa-play-circle fa-2x"></i>
+                                    </div>
+                                </div>
                                 <h3 class="text-white font-sm my">Release Radar</h3>
                             </div>
                         </div>
                         <div class="flex-col w-48">
                             <div class="w-full h-auto p text-center">
-                                <img class="h-auto w-full mb" src="img/mixdaily.jpeg" alt="Daily Mix">
+                                <div class="overlay">
+                                    <img class="h-auto w-full mb" src="img/mixdaily.jpeg" alt="Daily Mix">
+                                    <div class="play pop">
+                                        <i class="play far fa-play-circle fa-2x"></i>
+                                    </div>
+                                </div>
                                 <h3 class="text-white font-sm my">Daily Mix 1</h3>
                             </div>
                         </div>
@@ -204,13 +245,23 @@
                     <div class="w-full flex wrap">
                         <div class="flex-col w-48">
                             <div class="w-full h-auto p text-center">
-                                <img class="h-auto w-full mb radius" src="img/youg.jpeg" alt="Lana Del Rey">
+                                <div class="overlay radius">
+                                    <img class="h-auto w-full mb radius" src="img/youg.jpeg" alt="Lana Del Rey">
+                                    <div class="play pop">
+                                        <i class="play far fa-play-circle fa-2x"></i>
+                                    </div>
+                                </div>
                                 <h3 class="text-white font-sm my">Lana Del Rey</h3>
                             </div>
                         </div>
                         <div class="flex-col w-48">
                             <div class="w-full h-auto p text-center">
-                                <img class="h-auto w-full mb radius" src="img/einaudi.jpeg" alt="Ludovico Einaudi">
+                                <div class="overlay radius">
+                                    <img class="h-auto w-full mb radius" src="img/einaudi.jpeg" alt="Ludovico Einaudi">
+                                    <div class="play pop">
+                                        <i class="play far fa-play-circle fa-2x"></i>
+                                    </div>
+                                </div>
                                 <h3 class="text-white font-sm my">Ludovico Einaudi</h3>
                             </div>
                         </div>
@@ -228,14 +279,14 @@
                     <img class="img-md mx" src="img/sinister.jpeg" alt="Sinister">
                     <div>
                         <h5 class="text-white">Sinister</h5>
-                        <h6 class="text-grey">Brano Nome</h6>
+                        <h6 class="text-grey hover tr">Brano Nome</h6>
                     </div>
                 </div>
                 <div class="save">
-                    <button class="pl">
+                    <button class="pl hover tr">
                         <i class="far fa-heart"></i>
                     </button>
-                    <button class="pl">
+                    <button class="pl hover tr">
                         <i class="far fa-folder"></i>
                     </button>
                 </div>
@@ -244,25 +295,27 @@
             <div class="footer-center flex-col justify-center">
                 <div class="flex items-center justify-center">
                     <button class="text-white">
-                        <i class="fas fa-random"></i>
+                        <i class="fas fa-random pop"></i>
                     </button>
                     <button class="text-white pl-20">
-                        <i class="fas fa-step-backward"></i>
+                        <i class="fas fa-step-backward pop"></i>
                     </button>
                     <button class="text-white px-20">
-                        <i class="far fa-play-circle fa-2x"></i>
+                        <i class="far fa-play-circle fa-2x pop"></i>
                     </button>
                     <button class="text-white pr-20">
-                        <i class="fas fa-step-forward"></i>
+                        <i class="fas fa-step-forward pop"></i>
                     </button>
                     <button class="text-white">
-                        <i class="fas fa-redo"></i>
+                        <i class="fas fa-redo pop"></i>
                     </button>
                 </div>
                 <div class="flex items-center mt">
                     <span class="text-white font-xs pr">0:25</span>
                     <div class="play-bar">
-                        <div class="state"></div>
+                        <div class="state tr">
+                            <div class="circle tr"></div>
+                        </div>
                     </div>
                     <span class="text-white font-xs pl">4:35</span>
                 </div>
@@ -279,7 +332,9 @@
                     <i class="fas fa-volume-up"></i>
                 </button>
                 <div class="audio-bar mx">
-                    <div class="state"></div>
+                    <div class="state tr">
+                        <div class="circle tr"></div>
+                    </div>
                 </div>
             </div>
         </footer>

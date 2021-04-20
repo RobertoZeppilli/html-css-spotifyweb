@@ -215,7 +215,6 @@ main {
 aside {
     height: 100%;
     width: 200px;
-    overflow-y: auto;
     background-color: black;
 }
 .logo {
@@ -227,10 +226,14 @@ aside {
 .logo img {
     height: 50px;
 }
+
 .side-nav {
     padding: 20px 0;
 }
-  
+.nav-top {
+    overflow-y: auto;
+}
+
 .profile button {
     width: 100%;
     padding: 10px 0;

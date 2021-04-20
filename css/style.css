@@ -387,4 +387,38 @@ footer {
     .w-48 {
         width: 10rem;
     }
+
+    h5,
+    h6,
+    .font-xs,
+    .footer-right button,
+    .footer-center button {
+        font-size: 9px;
+    }
+    .img-md {
+        height: 25px;
+    }
 }
+
+@media screen and (max-width: 376px) {
+
+    .w-48 {
+        width: 8rem;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    #recently-played,
+    #suggested,
+    #artists {
+        text-align: center;
+    }
+
+    .around {
+        justify-content: space-around;
+    }
+}
+
+    

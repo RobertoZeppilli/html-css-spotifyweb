@@ -245,17 +245,13 @@ aside {
     background-color: black;
 }
 .logo {
-    margin-top: 10px;
+    margin: 10px 0 15px 0;
 }
 #logo-sm {
     display: none;
 }
 .logo img {
     height: 50px;
-}
-
-.side-nav {
-    padding: 20px 0;
 }
 
 .playlist {
@@ -472,7 +468,7 @@ footer {
     .w-48 {
         width: 15rem;
     }
-    
+
     nav ul {
         flex-direction: column;
         align-items: center;

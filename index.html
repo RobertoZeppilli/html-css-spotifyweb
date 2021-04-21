@@ -23,28 +23,28 @@
                 <div class="nav-top">
                     <!-- logo -->
                     <div class="logo flex justify-center">
-                        <img class="logo none" src="img/logo.svg" alt="Spotify Logo">
+                        <img class="none" src="img/logo.svg" alt="Spotify Logo">
                         <img id="logo-sm" src="img/logo-small.svg" alt="Spotify Small Logo">
                     </div>
                     <!-- /logo -->
 
                     <!-- side-nav -->
                     <div class="side-nav">
-                        <button class="w-full active-left flex items-center mb">
+                        <button class="w-full pl active-left flex items-center mb">
                             <img class="img-sm text-white" src="img/home.svg" alt="Home">
-                            <span class="ml text-white none">
+                            <span class="text-white pl none">
                                 Home
                             </span>
                         </button>
                         <button class="w-full pl flex items-center mb">
                             <img class="img-sm" src="img/search.svg" alt="Cerca">
-                            <span class="ml text-grey none hover tr">
+                            <span class="text-grey pl none hover tr">
                                 Cerca
                             </span>
                         </button>
                         <button class="w-full pl flex items-center mb">
                             <img class="img-sm" src="img/libreria.svg" alt="Libreria">
-                            <span class="ml text-grey none hover tr">
+                            <span class="text-grey pl none hover tr">
                                 La tua libreria
                             </span>
                         </button>
@@ -54,7 +54,7 @@
                 <!-- /nav-top -->
 
                 <!-- playlist -->
-                <div class="playlist mx none">
+                <div class="playlist px none">
                     <h4 class="upc font-sm text-white">
                         playlist
                     </h4>
@@ -93,12 +93,12 @@
                 <!-- profile -->
                 <div class="profile mx">
                     <button class="flex items-center">
-                        <i class="far fa-arrow-alt-circle-down text-grey"></i>
+                        <i class="download far fa-arrow-alt-circle-down text-grey"></i>
                         <p class="text-grey font-xs ml none hover tr">
                             Installa app
                         </p>
                     </button>
-                    <div class="flex items-center mt mb">
+                    <div class="flex items-center my">
                         <div class="profile-img flex items-center justify-center">
                             <img src="img/profile.svg" alt="Profile">
                         </div>
@@ -122,7 +122,7 @@
                 <!-- cta -->
 
                 <!-- main-navbar -->
-                <nav>
+                <nav class="main-nav">
                     <ul class="flex wrap items-center justify-center">
                         <li class="p">
                             <a href="#" class="py active-bottom upc text-grey no-dec font-sm hover tr">
@@ -375,15 +375,15 @@
                     </button>
                 </div>
                 <div class="flex items-center mt">
-                    <span class="text-white font-xs pr">
+                    <span class="time text-white font-xs pr">
                         0:25
                     </span>
-                    <div class="play-bar">
+                    <div class="bar play-bar">
                         <div class="state tr">
                             <div class="circle tr"></div>
                         </div>
                     </div>
-                    <span class="text-white font-xs pl">
+                    <span class="time text-white font-xs pl">
                         4:35
                     </span>
                 </div>
@@ -398,10 +398,11 @@
                 <button class="text-white pl pop">
                     <i class="fas fa-tv"></i>
                 </button>
-                <button class="text-white pl pop">
+                <button class="volume text-white pl pop">
                     <i class="fas fa-volume-up"></i>
+                    <i class="fas fa-volume-mute"></i>
                 </button>
-                <div class="audio-bar mx">
+                <div class="bar audio-bar mx">
                     <div class="state tr">
                         <div class="circle tr"></div>
                     </div>

@@ -179,12 +179,19 @@ button {
     transform: scale(1.1);
 }
 
-/* closed/open folder */
+/* closed/open folder & heart */
 .folder:hover .fa-folder,
 .folder .fa-folder-open {
     display: none;
 }
 .folder:hover .fa-folder-open {
+    display: inline;
+}
+.heart:hover .fa-heart,
+.heart .fa-heartbeat {
+    display: none;
+}
+.heart:hover .fa-heartbeat {
     display: inline;
 }
 

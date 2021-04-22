@@ -106,6 +106,10 @@ button {
     background-color: transparent;
     cursor: pointer;
 }
+button:active {
+    border: none;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 20px;

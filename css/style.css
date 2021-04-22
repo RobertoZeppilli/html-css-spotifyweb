@@ -147,6 +147,11 @@ button {
     color: #fff;
 }
 
+/* donwload button & text on right side */
+.profile button:hover .text-grey {
+    color: #fff;
+}
+
 /* play/audio bar */
 .play-bar:hover .state,
 .audio-bar:hover .state {
@@ -258,6 +263,7 @@ aside {
     padding: 10px 0;
     border-bottom: 1px solid #7A7C81;
 }
+
 .profile-img {
     height: 20px;
     width: 20px;

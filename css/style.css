@@ -308,6 +308,8 @@ section {
     position: relative;
 }
 .overlay img {
+    display: block;
+    max-width: 100%;
     opacity: 1;
     backface-visibility: hidden;
     transition: opacity .3s ease-in-out;

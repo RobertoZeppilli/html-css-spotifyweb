@@ -151,6 +151,9 @@ button {
 .profile button:hover .text-grey {
     color: #fff;
 }
+.profile button:hover .download {
+    transform: scale(1.1);
+}
 
 /* play/audio bar */
 .play-bar:hover .state,

@@ -15,10 +15,10 @@
     </head>
 
     <body>
-        <!-- main -->
-        <main class="flex">
-            <!-- aside -->
-            <aside class="flex-col">
+        <!-- wrapper -->
+        <div class="wrapper flex">
+            <!-- side-content -->
+            <aside class="side-content flex-col">
                 <!-- nav-top -->
                 <div class="nav-top">
                     <!-- logo -->
@@ -60,9 +60,9 @@
                     </h4>
                     <button class="flex items-center justify-start mt hover pop">
                         <i class="fas fa-plus-square fa-2x"></i>
-                        <p class="ml">
+                        <span class="ml">
                             Crea Playlist
-                        </p>
+                        </span>
                     </button>
                     <div class="flex-col">
                         <a href="#" class="text-grey no-dec font-xs mt hover tr">
@@ -91,14 +91,14 @@
                 <!-- /playlist -->
 
                 <!-- profile -->
-                <div class="profile mx">
+                <div class="profile flex-col mx">
                     <button class="flex items-center">
                         <i class="download far fa-arrow-alt-circle-down text-grey tr"></i>
-                        <p class="text-grey font-xs ml none tr">
+                        <span class="text-grey font-xs ml none tr">
                             Installa app
-                        </p>
+                        </span>
                     </button>
-                    <div class="flex items-center my">
+                    <div class="flex items-center my b-top pt">
                         <div class="profile-img flex items-center justify-center">
                             <img src="img/profile.svg" alt="Profile">
                         </div>
@@ -109,10 +109,10 @@
                 </div>
                 <!-- /profile -->
             </aside>
-            <!-- /aside -->
+            <!-- /side-content -->
 
             <!-- main content -->
-            <section>
+            <section class="main-content">
                 <!-- cta -->
                 <div id="cta" class="flex items-center justify-end pr-20">
                     <a class="btn upc no-dec text-white font-xs pop" href="#">
@@ -324,8 +324,8 @@
                 <!-- /artists -->
             </section>
             <!-- /main-content -->
-        </main>
-        <!-- /main -->
+        </div>
+        <!-- /wrapper -->
 
         <!-- footer-->
         <footer class="w-full flex items-center justify-between">

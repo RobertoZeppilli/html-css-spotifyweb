@@ -83,6 +83,9 @@
 .pr {
     padding-right: 10px;
 }
+.pt {
+    padding-top: 10px;
+}
 .px {
     padding: 0 10px;
 }
@@ -237,13 +240,13 @@ body {
     background: #ADFF2F;
 }
 
-/* MAIN */
-main {
+/* WRAPPER */
+.wrapper {
     height: calc(100vh - 80px);
 }
 
 /* aside */
-aside {
+.side-content {
     height: 100%;
     width: 200px;
     overflow: hidden;
@@ -264,13 +267,16 @@ aside {
     overflow-y: auto; 
     flex-grow: 1;
 }
-
-.profile button {
-    width: 100%;
-    padding: 10px 0;
-    border-bottom: 1px solid #7A7C81;
+.playlist a {
+    align-self: flex-start;
 }
 
+.profile button {
+    align-self: flex-start;
+}
+.b-top {
+    border-top: 1px solid #7A7C81;
+}
 .profile-img {
     height: 20px;
     width: 20px;
@@ -282,7 +288,7 @@ aside {
 }
 
 /* main content */
-section {
+.main-content {
     position: relative;
     height: 100%;
     width: calc(100% - 200px);
@@ -384,7 +390,7 @@ footer {
 /* MEDIA */
 @media screen and (max-width: 767px) {
 
-    aside {
+    .side-content {
         width: 50px;
     }
     #logo-sm {
@@ -402,7 +408,7 @@ footer {
         padding-left: 0;
     }
 
-    section,
+    .main-content,
     #cta {
         width: calc(100% - 50px);
     }
@@ -415,7 +421,7 @@ footer {
         width: 29%;
     }
     
-    .profile button {
+    .b-top {
         border: none;
     }
     .profile-img {
